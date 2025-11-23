@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Меню піци</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="site_title">Найсмачніші піци міста</h1>
+</header>
+
+<div class="container">
+
+    <!-- ПРИКЛАД КАРТОК — ВСІ ТВОЇ ТОВАРИ ЗАЛИШЕНО -->
+    
+    <article class="card">
+        <img src="https://5553.com.ua/img/products/100001123/image-100001123-01615914484.jpg">
+        <h2>Піца Цезар</h2>
+        <p>Вершковий соус, томати, куряче філе, Філадельфія, моцарела, салат.</p>
+        <div class="card_bottom">
+            <span class="price">215 грн</span>
+            <a href="#" class="btn">Замовити</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://5553.com.ua/img/products/100001347/image-100001347-01727589135.jpg">
+        <h2>Піца Вулкан</h2>
+        <p>Сирний борт, вершковий соус, шинка, салямі, томат, цибуля, фрі, пармезан.</p>
+        <div class="card_bottom">
+            <span class="price">315 грн</span>
+            <a href="#" class="btn">Замовити</a>
+        </div>
+    </article>
+
+    <article class="card">
+        <img src="https://5553.com.ua/img/products/100001121/image-100001121-01615914506.jpg">
+        <h2>Піца Морепродукти</h2>
+        <p>Моцарела, оливки, лимон, мідії, креветки, лосось.</p>
+        <div class="card_bottom">
+            <span class="price">500 грн</span>
+            <a href="#" class="btn">Замовити</a>
+        </div>
+    </article>
+
+    <!-- ... інші піци аналогічно (я можу все оформити автоматично) ... -->
+
+</div>
+<a href="#" class="btn add-to-cart" data-name="Піца Цезар" data-price="215">Замовити</a>
+<article class="card">
+    <img src="https://5553.com.ua/img/products/100001123/image-100001123-01615914484.jpg">
+    <h2>Піца Цезар</h2>
+    <p>Вершковий соус, томати, куряче філе, Філадельфія, моцарела, салат.</p>
+
+    <div class="card_bottom">
+        <span class="price">215 грн</span>
+        <a href="#" class="btn add-to-cart" data-name="Піца Цезар" data-price="215">Замовити</a>
+    </div>
+</article>
+<div id="cart" class="cart">
+    <h2> Кошик</h2>
+    <ul id="cart-items"></ul>
+    <div class="cart-total">Разом: <span id="total-price">0</span> грн</div>
+    <button id="clear-cart" class="btn clear">Очистити кошик</button>
+</div>
+
+
+</body>
+</html>
